@@ -1,0 +1,5 @@
+# Binarios — sin diff de texto, sin conversión de líneas
+*.exe binary
+*.dll binary
+*.conf text eol=lf
+*.h text eol=lf
