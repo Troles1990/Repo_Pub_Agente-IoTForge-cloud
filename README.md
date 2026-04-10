@@ -26,7 +26,7 @@ El agente corre en tu PC con Windows y permite compilar sketches de Arduino/ESP3
 2. Colócalos en una carpeta, por ejemplo `C:\IoTForgeAgent\`
 3. **Todos los archivos deben estar en la misma carpeta** — no mover ni borrar ninguno
 4. Ejecuta `IoTForgeAgent.exe`
-5. En IoTForge → Settings → Agente, ingresa el token que aparece en el agente
+5. En IoTForge → realiza el login (con token 2FA), token expira al 4to dia
 6. Listo — el agente aparecerá como conectado en tu dashboard
 
 ## Archivos incluidos
@@ -46,7 +46,7 @@ El agente se actualiza solo. Cuando hay una nueva versión disponible, la descar
 
 ## Placas soportadas
 
-- ESP32 / ESP32-S3 / ESP32-C3 / ESP32-C6 / ESP32-H2 / ESP32-S2
+- ESP32 / ESP32-S3 / ESP32-C3 / ESP32-C6 / ESP32-H2 / ESP32-S2 / ESP32-C5 / ESP82266 (Sin OTA enable) / 
 - Placas AVR compatibles con avrdude
 
 ## Soporte
